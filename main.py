@@ -69,8 +69,8 @@ args = argparser.parse_args()
 youtube = get_authenticated_service(args)
 
 #---------------------------------------------------------
-intents = discord.Intents(messages=True, guilds=True,message_content=True)
-client = discord.Client(intents = intents)
+#intents = discord.Intents(messages=True, guilds=True,message_content=True)
+client = discord.Client()
 queue = []
 my_subs_channels = []
 status = True
